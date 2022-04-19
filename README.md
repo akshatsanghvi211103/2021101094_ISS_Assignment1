@@ -8,7 +8,7 @@
 ### RUN: ./Q1.sh
 ## Q2 (Q2.sh)
 ### The input has been taken from "quotes.txt" & the output has been printed into a file called "speech.txt"
-### The output rearranges the non-empty lines as required and prints them, using the "awk" command (delimiter is " ~" ... a space with a tilda)
+### The output rearranges the non-empty lines as required and prints them, using the "awk" command (delimiter is " *~ *" to take into account all of the variations)
 ### RUN: ./Q2.sh
 ## Q3 (Q3.sh)
 ### The input can been taken from any file & the output has been printed on the terminal. Thus it is nessecary to pass the filename also in the command line.
